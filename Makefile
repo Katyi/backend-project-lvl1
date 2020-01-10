@@ -8,3 +8,4 @@ start:
 
 publish:
 	sudo npm publish --dry-run
+
