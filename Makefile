@@ -1,7 +1,7 @@
 # Makefile
 
 Install:
-	sudo npm install -g --save-dev @babel/core @babel/cli @babel/node @babel/preset-env
+	sudo npm install
 
 start:
 	npx babel-node src/bin/brain-games.js
@@ -9,3 +9,5 @@ start:
 publish:
 	sudo npm publish --dry-run
 
+lint:
+	npx eslint .
