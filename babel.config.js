@@ -1,3 +1,4 @@
+/*global module*/
 module.exports = {
   presets: [
     ['@babel/preset-env', {
@@ -8,5 +9,13 @@ module.exports = {
         safari: '11.1',
       },
     }],
+  ],
+  plugins: [
+    [
+      '@babel/plugin-proposal-pipeline-operator',
+      {
+        proposal: 'minimal',
+      },
+    ],
   ],
 };
