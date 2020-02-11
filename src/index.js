@@ -1,12 +1,12 @@
 import readlineSync from 'readline-sync';
 
-export const askName = () => {
+const askName = () => {
 	console.log('Welcome to the Brain Games!');
 	const actual = readlineSync.question('May I have your name? ');
 	console.log(`Hello, ${actual}!`);
 };
 
-export const evenGame = () => {
+const evenGame = () => {
 	console.log('Welcome to the Brain Games!');
 	console.log('Answer "yes" if the number is even, otherwise answer "no".');
 	const actual = readlineSync.question('May I have your name? ');
@@ -39,7 +39,8 @@ export const evenGame = () => {
 	console.log(`Congratulations, ${actual}!`);
 };
 
-export default askName;
+export { evenGame as default, askName };
+
 
 
 
