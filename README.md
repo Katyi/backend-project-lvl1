@@ -7,3 +7,4 @@ Project 1 for Hexlet
 
 [![Build Status](https://travis-ci.com/Katyi/backend-project-lvl1.svg?branch=master)](https://travis-ci.com/Katyi/backend-project-lvl1)
 
+[![asciicast](https://asciinema.org/a/vXhetMERwXaS3z44Lihn7bUlI.svg)](https://asciinema.org/a/vXhetMERwXaS3z44Lihn7bUlI)
