@@ -2,8 +2,8 @@
   "name": "project1",
   "version": "1.0.0",
   "description": "Project1 JS Hexlet",
-  "main": "src/index.js",
   "type": "module",
+  "main": "src/index.js",
   "bin": {
     "brain-games": "src/bin/brain-games.js",
     "brain-even": "src/bin/brain-even.js"
