@@ -15,6 +15,9 @@ start2:
 start3:
 	npx babel-node src/bin/brain-gcd.js
 
+start4:
+	npx babel-node src/bin/brain-progression.js
+
 publish:
 	sudo npm publish --dry-run
 
