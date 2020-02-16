@@ -88,4 +88,33 @@ const calcGame = () => {
   console.log(`Congratulations, ${actual}!`);
 };
 
-export { evenGame as default, askName, calcGame };
+const findGCD = (x, y) => (x ? findGCD(y % x, x) : y);
+
+const gcdGame = () => {
+  console.log('Welcome to the Brain Games!');
+  const actual = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${actual}!`);
+  console.log('Find the greatest common divisor of given numbers.');
+  const randNumber1 = () => Math.ceil(Math.random() * 100);
+  let i = 0;
+
+  while (i !== 3) {
+    const question1 = randNumber1();
+    const question2 = randNumber1();
+    const res = findGCD(question1, question2);
+    console.log(`Question: ${question1} ${question2}`);
+    const UserRespond1 = readlineSync.question('Your answer: ');
+    const res2 = res.toString();
+
+    if (UserRespond1 === res2) {
+      i += 1;
+      console.log('Correct!');
+    } else {
+      console.log(`'${UserRespond1}' is wrong answer ;(. Correct answer was '${res}'. \nLet's try again, ${actual}!`);
+      return;
+    }
+  }
+  console.log(`Congratulations, ${actual}!`);
+};
+
+export { evenGame as default, askName, calcGame, gcdGame };
