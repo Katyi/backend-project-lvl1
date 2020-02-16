@@ -117,4 +117,7 @@ const gcdGame = () => {
   console.log(`Congratulations, ${actual}!`);
 };
 
-export { evenGame as default, askName, calcGame, gcdGame };
+export {
+  evenGame as default,
+  askName, calcGame, gcdGame,
+};
