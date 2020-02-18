@@ -4,14 +4,14 @@ const askName = () => {
   console.log('Welcome to the Brain Games!');
   const actual = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${actual}!`);
+  return actual;
 };
 
+const randNumber = () => Math.ceil(Math.random() * 100);
+
 const evenGame = () => {
-  console.log('Welcome to the Brain Games!');
+  const actual = askName();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  const actual = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${actual}!`);
-  const randNumber = () => Math.ceil(Math.random() * 100);
   let i = 0;
 
   while (i !== 3) {
@@ -45,16 +45,13 @@ const randomInteger = (min, max) => {
 };
 
 const calcGame = () => {
-  console.log('Welcome to the Brain Games!');
-  const actual = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${actual}!`);
+  const actual = askName();
   console.log('What is the result of the expression?');
-  const randNumber1 = () => Math.ceil(Math.random() * 100);
   let i = 0;
 
   while (i !== 3) {
-    const question1 = randNumber1();
-    const question2 = randNumber1();
+    const question1 = randNumber();
+    const question2 = randNumber();
     const opindex = randomInteger(1, 3);
     let operator;
     let res;
@@ -91,16 +88,13 @@ const calcGame = () => {
 const findGCD = (x, y) => (x ? findGCD(y % x, x) : y);
 
 const gcdGame = () => {
-  console.log('Welcome to the Brain Games!');
-  const actual = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${actual}!`);
+  const actual = askName();
   console.log('Find the greatest common divisor of given numbers.');
-  const randNumber1 = () => Math.ceil(Math.random() * 100);
   let i = 0;
 
   while (i !== 3) {
-    const question1 = randNumber1();
-    const question2 = randNumber1();
+    const question1 = randNumber();
+    const question2 = randNumber();
     const res = findGCD(question1, question2);
     console.log(`Question: ${question1} ${question2}`);
     const UserRespond1 = readlineSync.question('Your answer: ');
@@ -118,17 +112,14 @@ const gcdGame = () => {
 };
 
 const progressionGame = () => {
-  console.log('Welcome to the Brain Games!');
-  const actual = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${actual}!`);
+  const actual = askName();
   console.log('What number is missing in the progression?');
-  const randNumber1 = () => Math.ceil(Math.random() * 100);
   let i = 0;
 
   while (i !== 3) {
     const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    const number1 = randNumber1();
-    const number2 = randNumber1();
+    const number1 = randNumber();
+    const number2 = randNumber();
     const number3 = randomInteger(0, 9);
     arr[0] = number1;
     for (let j = 0; j < 9; j += 1) {
@@ -151,7 +142,35 @@ const progressionGame = () => {
   console.log(`Congratulations, ${actual}!`);
 };
 
+const primeGame = () => {
+  const actual = askName();
+  console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+  let i = 0;
+
+  while (i !== 3) {
+    const number1 = randNumber();
+    let res = 'yes';
+    for (let j = 2; j < number1; j += 1) {
+      if (number1 % j === 0) {
+        res = 'no';
+      }
+    }
+    console.log(`Question: ${number1}`);
+    const UserRespond1 = readlineSync.question('Your answer: ');
+
+    if (UserRespond1 === res) {
+      i += 1;
+      console.log('Correct!');
+    } else {
+      console.log(`'${UserRespond1}' is wrong answer ;(. Correct answer was '${res}'. \nLet's try again, ${actual}!`);
+      return;
+    }
+    console.log(`Congratulations, ${actual}!`);
+  }
+};
+
 export {
   evenGame as default,
-  askName, calcGame, gcdGame, progressionGame,
+  askName, calcGame, gcdGame,
+  progressionGame, primeGame,
 };
