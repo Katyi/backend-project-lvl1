@@ -4,7 +4,7 @@ on: [push]
 jobs:
   build:
     name: checklint
-    runs-on: ubuntu-latest
+    runs-on: macOS
     steps:
       - uses: actions/checkout@v1
       - name: makelint
