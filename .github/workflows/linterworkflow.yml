@@ -1,0 +1,14 @@
+name: checkLinter
+
+on: [push]
+
+jobs:
+  build:
+    name: checklinter
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: makelint
+      run: |
+        make lint
