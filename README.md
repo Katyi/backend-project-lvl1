@@ -14,3 +14,5 @@ Project 1 for Hexlet
 [![asciicast](https://asciinema.org/a/M6uHgQu5d1EP9VnqarKU5ij4F.svg)](https://asciinema.org/a/M6uHgQu5d1EP9VnqarKU5ij4F)
 
 [![asciicast](https://asciinema.org/a/ZOW0D3rqsGNUlswndaYnSoVK6.svg)](https://asciinema.org/a/ZOW0D3rqsGNUlswndaYnSoVK6)
+
+[![asciicast](https://asciinema.org/a/ZZV8n609asr53LPF9Co3oTmfw.svg)](https://asciinema.org/a/ZZV8n609asr53LPF9Co3oTmfw)
