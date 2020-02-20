@@ -1,11 +1,13 @@
-name: checklint
+name: checkLinter
 on: [push]
 
 jobs:
   build:
-    name: checklint
-    runs-on: macOS
+    name: checklinter
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - name: makelint
-        run: make lint
+        run: |
+          make install
+          make lint
