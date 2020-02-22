@@ -9,12 +9,18 @@ Project 1 for Hexlet
 
 ![checkLinter](https://github.com/Katyi/backend-project-lvl1/workflows/checkLinter/badge.svg)
 
-[![asciicast](https://asciinema.org/a/nMou4zteOGmX2edIxMKNepJm3.svg)](https://asciinema.org/a/nMou4zteOGmX2edIxMKNepJm3)
+Asciinema
+Игра: "Проверка на чётность"
+[![asciicast](https://asciinema.org/a/r3L1aW9241UptgKhVKePqxuLc.svg)](https://asciinema.org/a/r3L1aW9241UptgKhVKePqxuLc)
 
-[![asciicast](https://asciinema.org/a/Ku8IpuwxD5XpEgDFLLzpamheS.svg)](https://asciinema.org/a/Ku8IpuwxD5XpEgDFLLzpamheS)
+Игра: "Калькулятор"
+[![asciicast](https://asciinema.org/a/jBkHr3GKB8EmVG9MhinmKP8b4.svg)](https://asciinema.org/a/jBkHr3GKB8EmVG9MhinmKP8b4)
 
-[![asciicast](https://asciinema.org/a/M6uHgQu5d1EP9VnqarKU5ij4F.svg)](https://asciinema.org/a/M6uHgQu5d1EP9VnqarKU5ij4F)
+Игра "НОД"
+[![asciicast](https://asciinema.org/a/PobNypAZ2RBJZMGMFz8jQveFx.svg)](https://asciinema.org/a/PobNypAZ2RBJZMGMFz8jQveFx)
 
-[![asciicast](https://asciinema.org/a/ZOW0D3rqsGNUlswndaYnSoVK6.svg)](https://asciinema.org/a/ZOW0D3rqsGNUlswndaYnSoVK6)
+Игра "Арифметическая прогрессия"
+[![asciicast](https://asciinema.org/a/wzNH13eaDRSE2P3MDVvkdAyHO.svg)](https://asciinema.org/a/wzNH13eaDRSE2P3MDVvkdAyHO)
 
-[![asciicast](https://asciinema.org/a/ZZV8n609asr53LPF9Co3oTmfw.svg)](https://asciinema.org/a/ZZV8n609asr53LPF9Co3oTmfw)
+Игра "Простое ли число?"
+[![asciicast](https://asciinema.org/a/B2w0inmsUplnTRZThbl7UiWAq.svg)](https://asciinema.org/a/B2w0inmsUplnTRZThbl7UiWAq)
