@@ -12,20 +12,20 @@ Project 1 for Hexlet
 Asciinema
 Игра: "Проверка на чётность"
 
-[![asciicast](https://asciinema.org/a/r3L1aW9241UptgKhVKePqxuLc.svg)](https://asciinema.org/a/r3L1aW9241UptgKhVKePqxuLc)
+[![asciicast](https://asciinema.org/a/wM4zomlEOuOo3hxWlBwWV87nr.svg)](https://asciinema.org/a/wM4zomlEOuOo3hxWlBwWV87nr)
 
 Игра: "Калькулятор"
 
-[![asciicast](https://asciinema.org/a/jBkHr3GKB8EmVG9MhinmKP8b4.svg)](https://asciinema.org/a/jBkHr3GKB8EmVG9MhinmKP8b4)
+[![asciicast](https://asciinema.org/a/YXmVqp1kh5c7OFaJcMF3zxExG.svg)](https://asciinema.org/a/YXmVqp1kh5c7OFaJcMF3zxExG)
 
 Игра "НОД"
 
-[![asciicast](https://asciinema.org/a/PobNypAZ2RBJZMGMFz8jQveFx.svg)](https://asciinema.org/a/PobNypAZ2RBJZMGMFz8jQveFx)
+[![asciicast](https://asciinema.org/a/frcIZSXlGVw7ymRQFKlHC1jBr.svg)](https://asciinema.org/a/frcIZSXlGVw7ymRQFKlHC1jBr)
 
 Игра "Арифметическая прогрессия"
 
-[![asciicast](https://asciinema.org/a/wzNH13eaDRSE2P3MDVvkdAyHO.svg)](https://asciinema.org/a/wzNH13eaDRSE2P3MDVvkdAyHO)
+[![asciicast](https://asciinema.org/a/FxUpbd8YKNnh62mGbenRuwUJN.svg)](https://asciinema.org/a/FxUpbd8YKNnh62mGbenRuwUJN)
 
 Игра "Простое ли число?"
 
-[![asciicast](https://asciinema.org/a/B2w0inmsUplnTRZThbl7UiWAq.svg)](https://asciinema.org/a/B2w0inmsUplnTRZThbl7UiWAq)
+[![asciicast](https://asciinema.org/a/4DqL8fVB6CUsa8FTYzGEV1Vgc.svg)](https://asciinema.org/a/4DqL8fVB6CUsa8FTYzGEV1Vgc)
