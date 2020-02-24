@@ -1,20 +1,13 @@
 name: checkLinter
-on: 
-  - push
+on: [push]
 
 jobs:
   build:
-    
-    runs-on: macos-latest
-    
-    strategy:
-      matrix:
-        node-version: [13.x]
-  
-    
+    name: checklinter
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Run linter
+      - name: makelint
         run: |
+          make Install
           make lint
-          

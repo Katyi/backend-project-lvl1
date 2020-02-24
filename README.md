@@ -7,12 +7,25 @@ Project 1 for Hexlet
 
 [![Build Status](https://travis-ci.com/Katyi/backend-project-lvl1.svg?branch=master)](https://travis-ci.com/Katyi/backend-project-lvl1)
 
-[![asciicast](https://asciinema.org/a/nMou4zteOGmX2edIxMKNepJm3.svg)](https://asciinema.org/a/nMou4zteOGmX2edIxMKNepJm3)
+![checkLinter](https://github.com/Katyi/backend-project-lvl1/workflows/checkLinter/badge.svg)
 
-[![asciicast](https://asciinema.org/a/Ku8IpuwxD5XpEgDFLLzpamheS.svg)](https://asciinema.org/a/Ku8IpuwxD5XpEgDFLLzpamheS)
+Asciinema
+Игра: "Проверка на чётность"
 
-[![asciicast](https://asciinema.org/a/M6uHgQu5d1EP9VnqarKU5ij4F.svg)](https://asciinema.org/a/M6uHgQu5d1EP9VnqarKU5ij4F)
+[![asciicast](https://asciinema.org/a/r3L1aW9241UptgKhVKePqxuLc.svg)](https://asciinema.org/a/r3L1aW9241UptgKhVKePqxuLc)
 
-[![asciicast](https://asciinema.org/a/ZOW0D3rqsGNUlswndaYnSoVK6.svg)](https://asciinema.org/a/ZOW0D3rqsGNUlswndaYnSoVK6)
+Игра: "Калькулятор"
 
-[![asciicast](https://asciinema.org/a/ZZV8n609asr53LPF9Co3oTmfw.svg)](https://asciinema.org/a/ZZV8n609asr53LPF9Co3oTmfw)
+[![asciicast](https://asciinema.org/a/jBkHr3GKB8EmVG9MhinmKP8b4.svg)](https://asciinema.org/a/jBkHr3GKB8EmVG9MhinmKP8b4)
+
+Игра "НОД"
+
+[![asciicast](https://asciinema.org/a/PobNypAZ2RBJZMGMFz8jQveFx.svg)](https://asciinema.org/a/PobNypAZ2RBJZMGMFz8jQveFx)
+
+Игра "Арифметическая прогрессия"
+
+[![asciicast](https://asciinema.org/a/wzNH13eaDRSE2P3MDVvkdAyHO.svg)](https://asciinema.org/a/wzNH13eaDRSE2P3MDVvkdAyHO)
+
+Игра "Простое ли число?"
+
+[![asciicast](https://asciinema.org/a/B2w0inmsUplnTRZThbl7UiWAq.svg)](https://asciinema.org/a/B2w0inmsUplnTRZThbl7UiWAq)
