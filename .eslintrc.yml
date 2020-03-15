@@ -1,4 +1,7 @@
----
+language: node_js
+
+node_js:
+  - node
 
 plugins:
   # https://github.com/jest-community/eslint-plugin-jest
@@ -9,6 +12,10 @@ plugins:
 # https://eslint.org/docs/user-guide/configuring#specifying-environments
 env:
   node: true
+
+script:
+  - make lint
+  - make test -- --coverage
 
 # https://github.com/babel/babel-eslint
 parser: babel-eslint
