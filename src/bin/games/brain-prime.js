@@ -1,9 +1,8 @@
-#!/usr/bin/env node
-import { Game, randNumber } from '../../index.js';
+import { game, randNumber } from '../../index.js';
 
 const task = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const GameData = () => {
+const gameData = () => {
   const arr = [];
   for (let i = 0; i < 3; i += 1) {
     const number1 = randNumber();
@@ -16,6 +15,6 @@ const GameData = () => {
   return arr;
 };
 
-const primeGame = (name) => Game(task, GameData(), name);
+const primeGame = (name) => game(task, gameData(), name);
 
 export default primeGame;

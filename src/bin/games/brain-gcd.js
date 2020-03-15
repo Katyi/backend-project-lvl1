@@ -1,9 +1,10 @@
-#!/usr/bin/env node
-import { Game, randNumber, findGCD } from '../../index.js';
+import { game, randNumber } from '../../index.js';
 
 const task = 'Find the greatest common divisor of given numbers.';
 
-const GameData = () => {
+const findGCD = (x, y) => (x ? findGCD(y % x, x) : y);
+
+const gameData = () => {
   const arr = [];
   for (let i = 0; i < 3; i += 1) {
     const number1 = randNumber();
@@ -16,6 +17,6 @@ const GameData = () => {
   return arr;
 };
 
-const gcdGame = (name) => Game(task, GameData(), name);
+const gcdGame = (name) => game(task, gameData(), name);
 
 export default gcdGame;

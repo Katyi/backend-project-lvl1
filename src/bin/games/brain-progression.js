@@ -1,9 +1,13 @@
-#!/usr/bin/env node
-import { Game, randNumber, randomInteger } from '../../index.js';
+import { game, randNumber } from '../../index.js';
 
 const task = 'What number is missing in the progression?';
 
-const GameData = () => {
+const randomInteger = (min, max) => {
+  const rand = min + Math.random() * (max + 1 - min);
+  return Math.floor(rand);
+};
+
+const gameData = () => {
   const arr = [];
   for (let i = 0; i < 3; i += 1) {
     const arr1 = [];
@@ -16,13 +20,13 @@ const GameData = () => {
     }
     const res = arr1[number3];
     arr1[number3] = '..';
-    const question = `${arr1[0]} ${arr1[1]} ${arr1[2]} ${arr1[3]} ${arr1[4]} ${arr1[5]} ${arr1[6]} ${arr1[7]} ${arr1[8]} ${arr1[9]}`;
+    const question = arr1.join(' ');
     const res1 = res.toString();
     arr.push([question, res1]);
   }
   return arr;
 };
 
-const progressionGame = (name) => Game(task, GameData(), name);
+const progressionGame = (name) => game(task, gameData(), name);
 
 export default progressionGame;
