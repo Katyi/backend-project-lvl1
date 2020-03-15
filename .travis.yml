@@ -3,7 +3,6 @@ node_js:
   - node
 
 env:
-  node: true
   global:
     - CC_TEST_REPORTER_ID=9bf46b038b36590819d9b7f530ca46173b806bc93af1c93531c421c7791da70f
 
@@ -18,20 +17,3 @@ script:
 
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
-
-plugins:
-  # https://github.com/jest-community/eslint-plugin-jest
-  - jest
-  # https://github.com/babel/eslint-plugin-babel
-  - babel
-  
-# https://github.com/babel/babel-eslint
-parser: babel-eslint
-
-extends:
-  - 'airbnb-base'
-  
-rules:
-  no-console: 0
-  import/no-unresolved: 0
-  import/extensions: 0
