@@ -8,4 +8,4 @@ env:
 
 script:
   - make lint
-  - make test -- --coverage
+  - make test-coverage
