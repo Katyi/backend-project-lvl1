@@ -3,6 +3,9 @@ language: node_js
 node_js:
   - node
 
+env:
+    - CC_TEST_REPORTER_ID=9bf46b038b36590819d9b7f530ca46173b806bc93af1c93531c421c7791da70f
+
 script:
   - make lint
-  - make test-coverage
+  - make test -- --coverage
