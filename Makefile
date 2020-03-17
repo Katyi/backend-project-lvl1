@@ -17,8 +17,8 @@ lint:
 	npx eslint .
 
 test:
-	sudo npm test
+	npm test
 
 test-coverage:
-	sudo npm test -- --coverage
+	npm test -- --coverage
 
