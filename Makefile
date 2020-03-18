@@ -16,9 +16,4 @@ publish:
 lint:
 	npx eslint .
 
-test:
-	sudo npm test
-
-test-coverage:
-	sudo npm test -- --coverage
 

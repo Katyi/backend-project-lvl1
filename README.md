@@ -3,8 +3,6 @@ Project 1 for Hexlet
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/f0bad79592362a3ecc38/maintainability)](https://codeclimate.com/github/Katyi/backend-project-lvl1/maintainability)
 
-<a href="https://codeclimate.com/github/Katyi/backend-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/f0bad79592362a3ecc38/test_coverage" /></a>
-
 [![Build Status](https://travis-ci.com/Katyi/backend-project-lvl1.svg?branch=master)](https://travis-ci.com/Katyi/backend-project-lvl1)
 
 ![checkLinter](https://github.com/Katyi/backend-project-lvl1/workflows/checkLinter/badge.svg)
