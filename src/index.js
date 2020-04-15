@@ -1,13 +1,13 @@
 import readlineSync from 'readline-sync';
+import { limitOfAnswers } from './utils.js';
 
-console.log('Welcome to the Brain Games!');
-const userName = readlineSync.question('May I have your name? ');
-console.log(`Hello, ${userName}!`);
-
-const game = (task, gameData) => {
+const game = (task, collectGameData) => {
+  console.log('Welcome to the Brain Games!');
+  const userName = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${userName}!`);
   console.log(`${task}`);
-  const limitOfAnswers = 3;
   for (let i = 0; i < limitOfAnswers; i += 1) {
+    const gameData = collectGameData();
     const [question, rightAnswer] = gameData[i];
     console.log(`Question: ${question}`);
     const UserRespond = readlineSync.question('Your answer: ');
@@ -21,12 +21,4 @@ const game = (task, gameData) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-const randomInteger = (min, max) => {
-  if (min !== undefined && max !== undefined) {
-    const rand = min + Math.random() * (max + 1 - min);
-    return Math.floor(rand);
-  }
-  return Math.ceil(Math.random() * 100);
-};
-
-export { game, randomInteger };
+export default game;

@@ -1,28 +1,25 @@
-import { game, randomInteger } from '../index.js';
+import game from '../index.js';
+import { randomInteger, limitOfAnswers } from '../utils.js';
 
 const task = 'What is the result of the expression?';
 
 const collectGameData = () => {
-  const limitOfAnswers = 3;
   const gameData = [];
   for (let i = 0; i < limitOfAnswers; i += 1) {
     const number1 = randomInteger();
     const number2 = randomInteger();
-    const opindex = ['+', '-', '*'];
-    let question;
+    const operations = ['+', '-', '*'];
+    const question = `${number1} ${operations[i]} ${number2}`;
     let result;
-    switch (opindex[i]) {
+    switch (operations[i]) {
       case '+':
         result = number1 + number2;
-        question = `${number1} + ${number2}`;
         break;
       case '-':
         result = number1 - number2;
-        question = `${number1} - ${number2}`;
         break;
       case '*':
         result = number1 * number2;
-        question = `${number1} * ${number2}`;
         break;
       default:
         break;
@@ -33,6 +30,6 @@ const collectGameData = () => {
   return gameData;
 };
 
-const calcGame = () => game(task, collectGameData());
+const calc = () => game(task, collectGameData);
 
-export default calcGame;
+export default calc;
