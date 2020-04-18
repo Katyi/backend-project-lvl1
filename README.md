@@ -7,12 +7,18 @@ Project 1 for Hexlet
 
 ![checkLinter](https://github.com/Katyi/backend-project-lvl1/workflows/checkLinter/badge.svg)
 
+
 Install from GitHub:
+
 $ git clone https://github.com/Katyi/backend-project-lvl1
+
 $ make publish
+
 $ npm link
 
+
 Games:
+
 brain-calc
 Enter result of the expression.
 
