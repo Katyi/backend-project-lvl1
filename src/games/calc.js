@@ -1,5 +1,5 @@
-import game from '../index.js';
-import { randomInteger, limitOfAnswers } from '../utils.js';
+import { game, limitOfAnswers } from '../index.js';
+import randomInteger from '../utils.js';
 
 const task = 'What is the result of the expression?';
 
@@ -10,26 +10,25 @@ const collectGameData = () => {
     const number2 = randomInteger();
     const operations = ['+', '-', '*'];
     const question = `${number1} ${operations[i]} ${number2}`;
-    let result;
+    let rightAnswer;
     switch (operations[i]) {
       case '+':
-        result = number1 + number2;
+        rightAnswer = number1 + number2;
         break;
       case '-':
-        result = number1 - number2;
+        rightAnswer = number1 - number2;
         break;
       case '*':
-        result = number1 * number2;
+        rightAnswer = number1 * number2;
         break;
       default:
         break;
     }
-    const rightAnswer = result.toString();
-    gameData.push([question, rightAnswer]);
+    gameData.push([question, rightAnswer.toString()]);
   }
   return gameData;
 };
 
-const calc = () => game(task, collectGameData);
+const startCalcGame = () => game(task, collectGameData);
 
-export default calc;
+export default startCalcGame;

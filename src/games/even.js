@@ -1,5 +1,5 @@
-import game from '../index.js';
-import { randomInteger, limitOfAnswers } from '../utils.js';
+import { game, limitOfAnswers } from '../index.js';
+import randomInteger from '../utils.js';
 
 const task = 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -15,6 +15,6 @@ const collectGameData = () => {
   return gameData;
 };
 
-const even = () => game(task, collectGameData);
+const startEvenGame = () => game(task, collectGameData);
 
-export default even;
+export default startEvenGame;

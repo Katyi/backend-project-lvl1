@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
-import { limitOfAnswers } from './utils.js';
+
+const limitOfAnswers = 3;
 
 const game = (task, collectGameData) => {
   console.log('Welcome to the Brain Games!');
@@ -10,10 +11,11 @@ const game = (task, collectGameData) => {
     const gameData = collectGameData();
     const [question, rightAnswer] = gameData[i];
     console.log(`Question: ${question}`);
-    const UserRespond = readlineSync.question('Your answer: ');
+    const userRespond = readlineSync.question('Your answer: ');
 
-    if (rightAnswer !== UserRespond) {
-      console.log(`'${UserRespond}' is wrong answer ;(. Correct answer was '${rightAnswer}'. \nLet's try again, ${userName}!`);
+    if (rightAnswer !== userRespond) {
+      console.log(`'${userRespond}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
     console.log('Correct!');
@@ -21,4 +23,4 @@ const game = (task, collectGameData) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default game;
+export { game, limitOfAnswers };

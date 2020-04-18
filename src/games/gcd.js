@@ -1,5 +1,5 @@
-import game from '../index.js';
-import { randomInteger, limitOfAnswers } from '../utils.js';
+import { game, limitOfAnswers } from '../index.js';
+import randomInteger from '../utils.js';
 
 const task = 'Find the greatest common divisor of given numbers.';
 
@@ -18,6 +18,6 @@ const collectGameData = () => {
   return gameData;
 };
 
-const gcd = () => game(task, collectGameData);
+const startGCDGame = () => game(task, collectGameData);
 
-export default gcd;
+export default startGCDGame;
