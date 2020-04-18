@@ -22,7 +22,7 @@ Asciinema
 
 Игра "Арифметическая прогрессия"
 
-[![asciicast](https://asciinema.org/a/FxUpbd8YKNnh62mGbenRuwUJN.svg)](https://asciinema.org/a/FxUpbd8YKNnh62mGbenRuwUJN)
+[![asciicast](https://asciinema.org/a/bP3goChKYDrllRdEUBFLxGswl.svg)](https://asciinema.org/a/bP3goChKYDrllRdEUBFLxGswl)
 
 Игра "Простое ли число?"
 
