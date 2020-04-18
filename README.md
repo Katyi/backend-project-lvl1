@@ -26,4 +26,4 @@ Asciinema
 
 Игра "Простое ли число?"
 
-[![asciicast](https://asciinema.org/a/4DqL8fVB6CUsa8FTYzGEV1Vgc.svg)](https://asciinema.org/a/4DqL8fVB6CUsa8FTYzGEV1Vgc)
+[![asciicast](https://asciinema.org/a/U9pCeGumrYSeCGeB3UvJ1RBxx.svg)](https://asciinema.org/a/U9pCeGumrYSeCGeB3UvJ1RBxx)
