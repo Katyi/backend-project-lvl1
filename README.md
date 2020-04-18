@@ -10,7 +10,7 @@ Project 1 for Hexlet
 Asciinema
 Игра: "Проверка на чётность"
 
-[![asciicast](https://asciinema.org/a/wM4zomlEOuOo3hxWlBwWV87nr.svg)](https://asciinema.org/a/wM4zomlEOuOo3hxWlBwWV87nr)
+[![asciicast](https://asciinema.org/a/kKfkB0W5IjO8sDFSmGFGx9jFc.svg)](https://asciinema.org/a/kKfkB0W5IjO8sDFSmGFGx9jFc)
 
 Игра: "Калькулятор"
 
