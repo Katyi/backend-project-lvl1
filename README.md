@@ -8,7 +8,7 @@ Project 1 for Hexlet
 ![checkLinter](https://github.com/Katyi/backend-project-lvl1/workflows/checkLinter/badge.svg)
 
 
-Install from GitHub:
+# Install from GitHub:
 
 $ git clone https://github.com/Katyi/backend-project-lvl1
 
@@ -17,7 +17,7 @@ $ make publish
 $ npm link
 
 
-Games:
+# Games:
 
 brain-calc
 Enter result of the expression.
@@ -34,8 +34,8 @@ If given number is prime enter 'yes' otherwise enter 'no'.
 brain-progression
 Enter missing element of the progression.
 
-Asciinema
-How to play:
+# Asciinema
+# How to play:
 
 Game: brain-calc
 
