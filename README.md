@@ -14,7 +14,7 @@ Asciinema
 
 Игра: "Калькулятор"
 
-[![asciicast](https://asciinema.org/a/YXmVqp1kh5c7OFaJcMF3zxExG.svg)](https://asciinema.org/a/YXmVqp1kh5c7OFaJcMF3zxExG)
+[![asciicast](https://asciinema.org/a/pJsFbwvBulD9IsAUv741svyAU.svg)](https://asciinema.org/a/pJsFbwvBulD9IsAUv741svyAU)
 
 Игра "НОД"
 
