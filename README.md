@@ -7,23 +7,46 @@ Project 1 for Hexlet
 
 ![checkLinter](https://github.com/Katyi/backend-project-lvl1/workflows/checkLinter/badge.svg)
 
+Install from GitHub:
+$ git clone https://github.com/Katyi/backend-project-lvl1
+$ make publish
+$ npm link
+
+Games:
+brain-calc
+Enter result of the expression.
+
+brain-even
+If given number is even enter 'yes' otherwise enter 'no'.
+
+brain-gcd
+Find the greatest common divisor of given numbers.
+
+brain-prime
+If given number is prime enter 'yes' otherwise enter 'no'.
+
+brain-progression
+Enter missing element of the progression.
+
 Asciinema
-Игра: "Проверка на чётность"
+How to play:
 
-[![asciicast](https://asciinema.org/a/kKfkB0W5IjO8sDFSmGFGx9jFc.svg)](https://asciinema.org/a/kKfkB0W5IjO8sDFSmGFGx9jFc)
-
-Игра: "Калькулятор"
+Game: brain-calc
 
 [![asciicast](https://asciinema.org/a/pJsFbwvBulD9IsAUv741svyAU.svg)](https://asciinema.org/a/pJsFbwvBulD9IsAUv741svyAU)
 
-Игра "НОД"
+Game: brain-even
+
+[![asciicast](https://asciinema.org/a/kKfkB0W5IjO8sDFSmGFGx9jFc.svg)](https://asciinema.org/a/kKfkB0W5IjO8sDFSmGFGx9jFc)
+
+Game: brain-gcd
 
 [![asciicast](https://asciinema.org/a/LJ6v60mOgj0QndhRUMBcmVhUF.svg)](https://asciinema.org/a/LJ6v60mOgj0QndhRUMBcmVhUF)
 
-Игра "Арифметическая прогрессия"
-
-[![asciicast](https://asciinema.org/a/bP3goChKYDrllRdEUBFLxGswl.svg)](https://asciinema.org/a/bP3goChKYDrllRdEUBFLxGswl)
-
-Игра "Простое ли число?"
+Game: brain-prime
 
 [![asciicast](https://asciinema.org/a/U9pCeGumrYSeCGeB3UvJ1RBxx.svg)](https://asciinema.org/a/U9pCeGumrYSeCGeB3UvJ1RBxx)
+
+Game: brain-progression
+
+[![asciicast](https://asciinema.org/a/bP3goChKYDrllRdEUBFLxGswl.svg)](https://asciinema.org/a/bP3goChKYDrllRdEUBFLxGswl)
